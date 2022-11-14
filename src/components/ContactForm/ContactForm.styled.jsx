@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Form = styled.form`
-  box-shadow: 2px 2px 2px 2px #979899;
+  box-shadow: 2px 2px 20px 0 rgba(151,152,153,0.5);
   max-width: 300px;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius:10px;
 `;
 
@@ -26,8 +26,10 @@ export const Button = styled.button`
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :hover,
   :focus {
-    box-shadow: 2px 2px 2px 2px #979899;
+    background-color:#31c902;
+    box-shadow: 2px 2px 10px 0 rgba(151,152,153,0.5);
   }
 `;

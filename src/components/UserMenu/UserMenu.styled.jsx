@@ -18,6 +18,6 @@ font-size:15px;
   cursor: pointer;
   :hover,
   :focus {
-    box-shadow: 2px 2px 2px 2px #979899;
+    box-shadow: 2px 2px 10px 0 rgba(151,152,153,0.5);
   }
 `;

@@ -16,8 +16,10 @@ export const Button = styled.button`
   font-size: 16px;
   line-height: 1.3;
   cursor: pointer;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :hover,
   :focus {
-    box-shadow: 2px 2px 2px 2px #979899;
+    background-color:#b00707;
+    box-shadow: 2px 2px 10px 0 rgba(151,152,153,0.5);
   }
 `;
