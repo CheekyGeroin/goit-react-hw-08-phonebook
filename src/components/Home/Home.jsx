@@ -1,4 +1,4 @@
-import { Container, Title } from "pages/HomePage.styled"
+import { Container, Title } from "./Home.styled"
 
 const Home = () => {
     return (
